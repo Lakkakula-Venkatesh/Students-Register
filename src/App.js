@@ -14,7 +14,7 @@ function App() {
   }
 
   const deleteStudent = (studentId) => {
-    let studentsCopy = [...students]
+    let studentsCopy = [...students];
     studentsCopy.splice(parseInt(studentId), 1);
     setStudents(studentsCopy);
   }
